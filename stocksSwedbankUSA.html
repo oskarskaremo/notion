@@ -1,0 +1,13 @@
+<iframe style="border: none; width:375px; height: 202px;" data-widget-name="" name="MiniChartWidget" src="https://darqube.com/external-embedding/mini-chart-widget?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3aWRnZXQiOnsidGlja2VyIjoiU0UwMDEyNzI5NTE1LkVVRlVORCJ9LCJ3X3R5cGUiOiJNaW5pQ2hhcnRXaWRnZXQiLCJmZV9jZmciOnsiY2hjbHIiOiJyZ2JhKDYxLCAxODcsIDE1NCwgMSkiLCJjbW9kZSI6MCwiZmNsciI6InJnYmEoMjU1LCAyNTUsIDI1NSwgMSkiLCJiZyI6InJnYmEoMjEsIDI1LCAzMCwgMSkiLCJoIjoyMDIsInciOjM3NSwiYXN6IjpmYWxzZSwiZnQiOiJkZWZhdWx0IiwiaHQiOiJub25lIiwidHJoIjpbXSwiY2hjIjoicmdiYSgyMzcsIDUwLCA5OCwgMSkiLCJiZSI6dHJ1ZSwiYmMiOiJyZ2JhKDI1NSwyNTUsMjU1LDAuMSkiLCJidyI6MSwiY24iOiIiLCJsbmciOiJlbiIsImhkaWNuIjpmYWxzZSwid3RtViI6eyJ0eXBlIjoiRGFycXViZSIsImVuYWJsZWQiOnRydWV9LCJ1YyI6InJnYmEoNDgsIDEzMSwgMTA5LCAxKSIsImRjIjoicmdiYSgyMzcsIDUwLCA5OCwgMSkiLCJseXQiOiJob3Jpem9udGFsIiwiaW50dCI6ImZpeGVkIiwiaW50IjoiNk0iLCJpbnRyIjpbMTY3NDU0NzQxNCwxNjkwMTg1ODE0XSwic21ibCI6eyJ0aWNrZXIiOiJTRTAwMTI3Mjk1MTUuRVVGVU5EIiwic3ltYm9sIjoiU0UwMDEyNzI5NTE1IiwibmFtZSI6IlN3ZWRiYW5rIFJvYnVyIFNtYWxsIENhcCBVU0EgQSIsImV4Y2hhbmdlX2NvZGUiOiJFVUZVTkQiLCJhc3NldF9jbGFzcyI6IkZVTkRTIiwibG9nb191cmwiOm51bGwsImxhc3RfdXBkYXRlIjoiMjAyMy0wNy0yOVQwMDowNjo1Ni4zNjcwMDArMDA6MDAiLCJhdmFpbGFibGVfZGF0YSI6WyJxdW90ZSIsIjFkIiwic2NyZWVuZXIiXSwiaXNfYWxpdmUiOnRydWUsInJlYWxfZXhjaGFuZ2UiOiJFVUZVTkQiLCJ0eXBlIjoiRlVORCIsImN1cnJlbmN5IjoiU0VLIiwiY291bnRyeSI6bnVsbCwiaXNpbiI6IlNFMDAxMjcyOTUxNSIsImN1c2lwIjpudWxsfSwic2wiOnRydWV9LCJleHAiOjE2OTg0Mjc4NDMsInN1YiI6ImFjY2VzcyJ9.hpaLXbBT-20XE589L8FlyWxRPCwl81Wavo99YMYhVfo" id="MiniChartWidget-m8apnj2"></iframe>
+<script>
+  window.top.addEventListener("message", function(msg) {
+    const widget = document.getElementById('MiniChartWidget-m8apnj2');
+    
+    if (!widget) return;
+    
+    const styles = msg.data?.styles;
+    if (styles) {
+      Object.keys(styles).forEach(key => widget.style.setProperty(key, styles[key]))
+    }
+  });
+</script>
